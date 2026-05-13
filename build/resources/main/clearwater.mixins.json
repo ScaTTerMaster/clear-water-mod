@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.clearwater.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "GameRendererMixin",
+    "OverlaysRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

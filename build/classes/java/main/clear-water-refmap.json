@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "com/example/clearwater/mixin/GameRendererMixin": {
+      "Lnet/minecraft/entity/living/LivingEntity;isInFluid(Lnet/minecraft/block/material/Material;)Z": "Lnet/minecraft/class_127;method_1328(Lnet/minecraft/class_15;)Z",
+      "Lnet/minecraft/level/Level;getBrightness(III)F": "Lnet/minecraft/class_18;method_1782(III)F",
+      "renderFog": "Lnet/minecraft/class_555;method_1852(F)V",
+      "renderTick": "Lnet/minecraft/class_555;method_1837()V",
+      "setupFog": "Lnet/minecraft/class_555;method_1842(IF)V"
+    },
+    "com/example/clearwater/mixin/OverlaysRendererMixin": {
+      "Lnet/minecraft/entity/living/player/AbstractClientPlayer;isInFluid(Lnet/minecraft/block/material/Material;)Z": "Lnet/minecraft/class_40;method_1328(Lnet/minecraft/class_15;)Z",
+      "renderOverlays": "Lnet/minecraft/class_556;method_1864(F)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/example/clearwater/mixin/GameRendererMixin": {
+        "Lnet/minecraft/entity/living/LivingEntity;isInFluid(Lnet/minecraft/block/material/Material;)Z": "Lnet/minecraft/class_127;method_1328(Lnet/minecraft/class_15;)Z",
+        "Lnet/minecraft/level/Level;getBrightness(III)F": "Lnet/minecraft/class_18;method_1782(III)F",
+        "renderFog": "Lnet/minecraft/class_555;method_1852(F)V",
+        "renderTick": "Lnet/minecraft/class_555;method_1837()V",
+        "setupFog": "Lnet/minecraft/class_555;method_1842(IF)V"
+      },
+      "com/example/clearwater/mixin/OverlaysRendererMixin": {
+        "Lnet/minecraft/entity/living/player/AbstractClientPlayer;isInFluid(Lnet/minecraft/block/material/Material;)Z": "Lnet/minecraft/class_40;method_1328(Lnet/minecraft/class_15;)Z",
+        "renderOverlays": "Lnet/minecraft/class_556;method_1864(F)V"
+      }
+    }
+  }
+}
