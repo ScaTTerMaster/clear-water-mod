@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "clearwater",
+  "version": "${version}",
+
+  "name": "Clear Water",
+  "description": "Removes underwater fog and the water screen overlay so water appears clear.",
+  "authors": [],
+
+  "license": "CC0-1.0",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.clearwater.ClearWaterMod"
+    ]
+  },
+  "mixins": [
+    "clearwater.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
