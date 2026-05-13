@@ -5,9 +5,9 @@
 
   "name": "Clear Water",
   "description": "Removes underwater fog and the water screen overlay so water appears clear.",
-  "authors": [],
+  "authors": ["ScaTTerMaster"],
 
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "client",
   "entrypoints": {
